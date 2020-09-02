@@ -1,0 +1,27 @@
+package com.skarlatov.assignment;
+
+public class Notes {
+}
+
+
+
+//1. implement compositeInterface of type Faculty
+
+//many different kind of poffessors all will extend from base class professor
+
+hierarchy
+dean
+chair
+head
+professor(leaf implemntation)
+
+    so you will create many differnet objects that represent this hierarchyy
+1. one dean (composite) with faculty under it
+2. two departments (math and computer science, with sub chairs) [this is a composit]
+3. 2 professors under math, 3 profuseros under computer science
+
+
+
+
+
+
