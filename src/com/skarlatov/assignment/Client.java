@@ -20,6 +20,16 @@ public class Client {
         deanObj.add(chairMath);
 
 
+        chairCS.add(csProf1);
+        chairCS.add(csProf2);
+        chairCS.add(csProf3);
+
+        chairMath.add(mathProf1);
+        chairMath.add(mathProf2);
+
+        deanObj.showDetails();
+        System.out.println("end code");
+
     }
 
 }
