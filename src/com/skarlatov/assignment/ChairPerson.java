@@ -18,7 +18,10 @@ public class ChairPerson implements FacultyComponent {
     }
     public void getMyUnderlings(){
         for(FacultyComponent f : subordinates){
-
+            // can make certain assumptions if object is isntance of chair person.
+            //for example that all elements in its subordinate list are either sutdent or professor
+            // thus implement logic that tests for instance of and prints description based on which using
+            // getter mehtods or a toString() method
         }
     }
     @Override
