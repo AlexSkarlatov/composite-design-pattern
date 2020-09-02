@@ -6,9 +6,9 @@ public class ChairPerson implements FacultyComponent {
     ArrayList<FacultyComponent> subordinates = new ArrayList<>();
     private String name, dept, degree;
     private double salary;
-    public  ChairPerson(){
-
-    }
+//    public  ChairPerson(){
+//
+//    }
     public ChairPerson(String name, String dept, String degree, double salary){
         this.name = name;
         this.dept = dept;
@@ -31,12 +31,20 @@ public class ChairPerson implements FacultyComponent {
         }
     }
     // TODO methods for handling the undersling, add, remove, etc.
-    public void add(FacultyComponent f){
-        subordinates.add(f);
+
+
+    @Override
+    public void add(FacultyComponent facultyComponent) {
+        subordinates.add(facultyComponent);
+
     }
-    public void remove(FacultyComponent f){
-        subordinates.remove(f);
+
+    @Override
+    public void remove(FacultyComponent facultyComponent) {
+        subordinates.remove(facultyComponent);
     }
+
+
     //TODO methods for handling member fields,
     public String getName() {
         return name;

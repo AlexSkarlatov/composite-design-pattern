@@ -37,4 +37,16 @@ class Professor implements FacultyComponent {
     public void showDetails() {
         System.out.println("professors name = "+ getName()+ " officenumber = " + getOfficeNumber() + "position = " + getPosition());
     }
+
+    @Override
+    public void add(FacultyComponent facultyComponent) {
+        //TODO EXCEOPTIONHANDLING HERE FOR A NO OPERATRION
+        System.out.println("no op");
+    }
+
+    @Override
+    public void remove(FacultyComponent facultyComponent) {
+        //TODO EXCEOPTIONHANDLING HERE FOR A NO OPERATRION
+        System.out.println("no op");
+    }
 }

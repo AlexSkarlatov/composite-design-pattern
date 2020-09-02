@@ -8,9 +8,9 @@ public class Dean implements FacultyComponent{
     private String name, dept, degree;
     private double salary;
 
-    public  Dean(){
-
-    }
+//    public  Dean(){
+//
+//    }
     public Dean(String name, String dept, String degree, double salary){
         this.name = name;
         this.dept = dept;
